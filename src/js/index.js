@@ -7,6 +7,13 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
-
+import Traffic from "./component/traffic1variable";
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+ReactDOM.render(
+	<>
+		<Home />
+		<br />
+		<Traffic />
+	</>,
+	document.querySelector("#app")
+);
